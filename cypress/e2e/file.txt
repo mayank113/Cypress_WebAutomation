@@ -1,0 +1,11 @@
+npm init
+npm install cypress --save-dev
+or npm install --save-dev cypress@10.1.0
+npx cypress open
+npm install -D cypress-xpath
+
+Adding in support folder command.js file
+/// <refrence types = "Cypress" />
+/// <reference types="cypress-xpath" />
+Adding in support folder e2e.js file
+require('cypress-xpath')
